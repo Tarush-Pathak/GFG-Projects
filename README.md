@@ -1,4 +1,5 @@
-🛡️ LogAlert – Brute Force Attack Detector
+🛡️ LogAlert – Brute Force Attack Detector:
+
 LogAlert is a simple Python script that analyzes authentication log files to detect possible brute-force login attacks based on failed login attempts and timing patterns.
 
 📌 Features
