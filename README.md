@@ -3,6 +3,7 @@
 LogAlert is a simple Python script that analyzes authentication log files to detect possible brute-force login attacks based on failed login attempts and timing patterns.
 
 
+
 📌 Features:
 
 Detects failed login attempts (HTTP 401)
@@ -14,6 +15,7 @@ Flags potential brute-force attacks when:
 An IP has 5 or more failed attempts
 
 The time difference between attempts is constant
+
 
 
 🧾 Log File Format:
@@ -34,6 +36,7 @@ Status code: STATUS=401
 Blank or malformed lines are safely ignored.
 
 
+
 🚀 How It Works:
 
 Reads the log file line by line
@@ -51,11 +54,13 @@ Equal time intervals between attempts
 Raises an alert if both conditions are met
 
 
+
 📚 Technologies Used:
 
 Visual Studio Code
 
 Python 3
+
 
 
 ⚠️ Limitations:
