@@ -57,7 +57,6 @@ Raises an alert if both conditions are met
 
 📚 Technologies Used:
 
-Visual Studio Code
 
 Python 3
 
